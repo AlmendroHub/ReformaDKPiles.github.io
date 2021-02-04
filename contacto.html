@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
             <meta charset="utf-8">
                 <link href="css/estilo5.css" rel="stylesheet" type="text/css">
                 </link>
@@ -88,7 +88,9 @@
                         Quieres contactar con nosotros?
                     </h1>
                     <br/>
-                    Entonces rellene el siguiente formulario:
+                    <span id="info">
+                        Entonces rellene el siguiente formulario:
+                    </span>
                     <br/>
                     <br/>
                     <form action="DKPiles@gmail.com" method="POST">
@@ -136,12 +138,11 @@
                         </select>
                         <br/>
                         <br/>
-                        <b id="form">
+                        <b class="pregunta" id="form">
                             Pregunta:
                         </b>
                         <br/>
-                        <textarea cols="32" name="texto" placeholder="Introduce aquí el motivo" required="" rows="6">
-                        </textarea>
+                        <textarea cols="32" name="texto" placeholder="Introduce aquí el motivo" required="" rows="6"></textarea>
                         <br/>
                         <br/>
                         <input name="enviar" type="submit" value="Enviar">
@@ -155,7 +156,9 @@
                         Quieres escribir una opinión?
                     </h1>
                     <br/>
-                    Entonces adelante:
+                    <span id="info">
+                        Entonces adelante:
+                    </span>
                     <br/>
                     <br/>
                     <div id="contorno">
