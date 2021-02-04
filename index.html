@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js">
+        </script>
+        <meta charset="utf-8">
+            <link href="css/estilo1.css" rel="stylesheet" type="text/css">
+            </link>
+            <title>
+                Inicio
+            </title>
+        </meta>
+    </head>
+    <script>
+        /* Comprueba la localStorage si ya tiene la variable guardada */
+    function compruebaAceptaCookies() {
+      if(localStorage.aceptaCookies == 'true'){
+        cajacookies.style.display = 'none';
+      }
+    }
+
+    /* Guardamos la variable de que se ha
+    aceptado el uso de cookies así no mostraremos
+    el mensaje de nuevo */
+    function aceptarCookies() {
+      localStorage.aceptaCookies = 'true';
+      cajacookies.style.display = 'none';
+    }
+
+    /* Se ejecuta cuando la web está cargada */
+    $(document).ready(function () {
+    compruebaAceptaCookies();
+    });
+    </script>
+    <body>
+        <div id="contenedor">
+            <header>
+                <div id="resumen">
+                    <h2>
+                        Temporada 2021 - 2022
+                    </h2>
+                    <hr/>
+                    <p>
+                        <br>
+                            Somos un club donde la
+                            <b>
+                                diversión
+                            </b>
+                            y el
+                            <b>
+                                aprendizaje
+                            </b>
+                            es lo mas importante.
+                           
+                            Competimos, entrenamos... Pero sobretodo
+                            
+                            aprendemos a
+                            <b>
+                                valorar
+                            </b>
+                            y respetar el
+                            <b>
+                                compañerismo
+                            </b>
+                            .
+                        </br>
+                    </p>
+                </div>
+                <div id="logo">
+                    <img id="logo" src="img/logo.png" width="300px">
+                    </img>
+                </div>
+                <div id="sesion">
+                    <div id="iniciar">
+                        <b>
+                            <a href="" id="sesion">
+                                Iniciar Sesión
+                            </a>
+                        </b>
+                    </div>
+                    <div id="registrarse">
+                        <b>
+                            <a href="" id="sesion">
+                                Registrarse
+                            </a>
+                        </b>
+                    </div>
+                </div>
+            </header>
+            <nav>
+                <div id="nav">
+                    <a href="index.html">
+                        Inicio
+                    </a>
+                </div>
+                <div id="nav">
+                    <a href="club.html">
+                        Club
+                    </a>
+                </div>
+                <div id="nav">
+                    <a href="album.html">
+                        Álbum de Fotos
+                    </a>
+                </div>
+                <div id="nav">
+                    <a href="noticias.html">
+                        Noticias / Eventos
+                    </a>
+                </div>
+                <div id="nav">
+                    <a href="contacto.html">
+                        Contacto
+                    </a>
+                </div>
+            </nav>
+            <main>
+                <div class="carousel">
+                    <button id="retroceder">
+                        <b>
+                            <<
+                        </b>
+                    </button>
+                    <div id="imagen">
+                    </div>
+                    <button id="avanzar">
+                        >>
+                    </button>
+                </div>
+                <div class="controles">
+                    <button id="play">
+                        <b>
+                            Play
+                        </b>
+                    </button>
+                    <button disabled="" id="stop">
+                        <b>
+                            Stop
+                        </b>
+                    </button>
+                </div>
+            </main>
+            <footer>
+                <div id="imgPie">
+                    <img src="img/logo.png" width="150px">
+                    </img>
+                </div>
+                <div id="apps">
+                    <h2>
+                        Obtén la App Oficial:
+                    </h2>
+                    <hr/>
+                    <div id="playstore">
+                        <div>
+                            <a href="https://play.google.com/" target="_blank">
+                                <img id="play" src="img/playstore.png" width="40px">
+                                </img>
+                            </a>
+                        </div>
+                        <div id="letra1">
+                            <span>
+                                Descargala desde la Play Store
+                            </span>
+                        </div>
+                    </div>
+                    <div id="appstore">
+                        <div>
+                            <a href="https://www.apple.com/" target="_blank">
+                                <img id="play" src="img/appstore.png" width="40px">
+                                </img>
+                            </a>
+                        </div>
+                        <div id="letra2">
+                            <span>
+                                Descargala desde la App Store
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="redesSociales">
+                    <h2>
+                        Redes Sociales:
+                    </h2>
+                    <hr/>
+                    <div id="facebook">
+                        <div>
+                            <a href="https://ca-es.facebook.com/" target="_blank">
+                                <img id="play" src="img/facebook.png" width="30px">
+                                </img>
+                            </a>
+                        </div>
+                        <div id="letra3">
+                            <span>
+                                Visitanos a través de Facebook
+                            </span>
+                        </div>
+                    </div>
+                    <div id="instagram">
+                        <div id="imageninsta">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img id="play" src="img/instagram.png" width="42px">
+                                </img>
+                            </a>
+                        </div>
+                        <div id="letra4">
+                            <span>
+                                Visitanos a través de Instagram
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="nosotros">
+                    <h2>
+                        Acerca de Nosotros:
+                    </h2>
+                    <hr/>
+                    <br/>
+                    -
+                    <span>
+                        <a href="contacto.html" id="info">
+                            Información sobre Nosotros
+                        </a>
+                    </span>
+                    <br/>
+                    <br/>
+                    -
+                    <span>
+                        <a href="contacto.html" id="info">
+                            Política de Privacidad
+                        </a>
+                    </span>
+                    <br/>
+                    <br/>
+                    -
+                    <span>
+                        <a href="contacto.html" id="info">
+                            Ayuda
+                        </a>
+                    </span>
+                </div>
+            </footer>
+            <div id="cajacookies">
+                <p>
+                    <button class="pull-right" onclick="aceptarCookies()">
+                        <i class="fa fa-times">
+                        </i>
+                        Aceptar y Cerrar este mensaje
+                    </button>
+                    Este sitio web emplea el uso de cookies, si  quiere permanecer en esta página web, acepte su uso.
+                </p>
+            </div>
+        </div>
+        <script src="js/carrousel.js">
+        </script>
+    </body>
+</html>

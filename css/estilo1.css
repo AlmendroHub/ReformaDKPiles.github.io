@@ -1,0 +1,372 @@
+/*************/
+
+/*VISTA PC*/
+
+/*************/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+:root {
+	font-family: "Arial", serif;
+	font-size: 14px;
+}
+
+body {
+	width: 100%;
+}
+
+div#contenedor {
+	display: flex;
+	flex-direction: column;
+	background-image: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: 1600px;
+	width: 100%;
+	height: 800px;
+}
+
+header {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 15%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div#resumen {
+	width: 350px;
+}
+
+div#logo {
+	margin-top: -100px;
+	margin-right: 188px;
+}
+
+div#sesion > div {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: lightblue;
+	border: 3px solid blue;
+	text-align: center;
+}
+
+div#iniciar:hover {
+	background-color: lightgreen;
+}
+
+div#registrarse:hover {
+	background-color: lightgreen;
+}
+
+a#sesion:hover {
+	color: brown;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+/* Sección Menú */
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 15%;
+}
+
+nav > div {
+	padding: 5px;
+	border: 3px solid black;
+	padding: 10px;
+	width: 150px;
+	background-color: white;
+	font-weight: bold;
+	margin: 20px;
+	text-align: center;
+}
+
+div#nav:hover {
+	background-color: lightblue;
+}
+
+/* Sección Carrousel */
+
+main {
+	height: 50%;
+	padding-top: 10px;
+}
+
+div.carousel {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+}
+
+div#imagen {
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	border: 2px solid black;
+}
+
+button[id="retroceder"] {
+	background-color: rgba(181, 101, 29, .8);
+	border: 3px solid black;
+	padding: 2px;
+}
+
+button[id="avanzar"] {
+	background-color: rgba(181, 101, 29, .8);
+	border: 3px solid black;
+	padding: 2px;
+}
+
+button[id="play"] {
+	background-color: rgba(181, 101, 29, .8);
+	border: 3px solid black;
+	padding: 2px;
+	width: 80px;
+}
+
+button[id="stop"] {
+	background-color: rgba(181, 101, 29, .8);
+	border: 3px solid black;
+	padding: 2px;
+	width: 80px;
+}
+
+div.controles {
+	padding-top: 15px;
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 20%;
+	background-color: rgba(173, 216, 230, .8);
+}
+
+/* Sección Apps */
+
+div#apps {
+	padding-top: 10px;
+}
+
+div#playstore {
+	display: flex;
+	flex-direction: row;
+}
+
+img#play {
+	padding-top: 10px;
+}
+
+div#letra1 {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-top: 8px;
+}
+
+div#playstore {
+	display: flex;
+	flex-direction: row;
+}
+
+div#letra2 {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-top: 8px;
+}
+
+div#appstore {
+	display: flex;
+	flex-direction: row;
+}
+
+/* Sección Redes Sociales */
+
+div#redesSociales {
+	padding-top: 10px;
+}
+
+div#facebook {
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+}
+
+div#letra3 {
+	display: flex;
+	align-items: center;
+	padding-left: 8px;
+}
+
+div#redesSociales {
+	padding-top: 10px;
+}
+
+div#instagram {
+	display: flex;
+	flex-direction: row;
+}
+
+div#imageninsta {
+	margin-left: -6px;
+}
+
+div#letra4 {
+	display: flex;
+	align-items: center;
+	padding-left: 4px;
+	padding-top: 8px;
+}
+
+/* Sección Acerca de Nosotros */
+
+div#nosotros {
+	padding-top: 10px;
+}
+
+div#nosotros > span {
+	text-decoration: underline;
+}
+
+a#info:hover {
+	color: brown;
+}
+
+/* Sección Cookies */
+
+#cajacookies {
+	box-shadow: 0px 0px 5px 5px black;
+	background-color: lightgrey;
+	color: black;
+	padding: 10px;
+	margin-bottom: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#cajacookies button {
+	color: black;
+	padding: 3px;
+	margin-right: 40px;
+	border: 2px solid black;
+	background-color: white;
+	font-weight: bold;
+}
+
+#cajacookies button:hover {
+	box-shadow: 3px 5px;
+}
+
+/*************/
+
+/*VISTA MOBIL*/
+
+/*************/
+
+@media(max-width: 768px) {
+	body {
+		background-color: #D6EAF8;
+	}
+	div#contenedor {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	div#resumen {
+		text-align: center;
+		width: 300px;
+	}
+	div#logo {
+		width: 300px;
+		padding-left: 95px;
+		margin-top: 1px;
+	}
+	img#logo {
+		margin-top: -70px;
+	}
+	div#sesion {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+		margin-top: -80px;
+	}
+	div#sesion > div {
+		padding: 5px;
+		margin-top: 10px;
+		width: 200px;
+		background-color: lightblue;
+		border: 3px solid blue;
+		text-align: center;
+	}
+	/* Sección Menú */
+	nav {
+		padding-top: 10px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: stretch;
+		text-align: center;
+	}
+	nav > div {
+		padding: 5px;
+		margin-top: 10px;
+		font-weight: bold;
+		text-align: center;
+	}
+	/* Sección Carrousel */
+	main {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	div#imagen {
+		height: 140px;
+		background-size: cover;
+		border: 2px solid black;
+	}
+	footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: rgba(173, 216, 230, 1);
+	}
+	div#nosotros {
+		margin-left: -25px;
+		padding-bottom: 20px;
+	}

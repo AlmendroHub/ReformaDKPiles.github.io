@@ -1,0 +1,421 @@
+/*************/
+
+/* VISTA PC */
+
+/*************/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+:root {
+	font-family: "Arial", serif;
+	font-size: 14px;
+}
+
+body {
+	width: 100%;
+	background-color: #D6EAF8;
+}
+
+div#contenedor {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+header {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 15%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div#info {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+div#info > div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: 'Original Surfer', cursive;
+	color: brown;
+}
+
+a#inf {
+	color: brown;
+	text-decoration: underline;
+}
+
+a#inf:hover {
+	color: blue;
+}
+
+div#logo {
+	margin-top: -100px;
+	margin-right: 168px;
+}
+
+div#sesion > div {
+	display: flex;
+	flex-direction: column;
+	padding: 6.5px;
+	margin-top: 10px;
+	background-color: lightblue;
+	border: 3px solid blue;
+	text-align: center;
+}
+
+div#iniciar:hover {
+	background-color: lightgreen;
+}
+
+div#registrarse:hover {
+	background-color: lightgreen;
+}
+
+a#sesion {
+	font-size: 14.5px;
+}
+
+a#sesion:hover {
+	color: brown;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+/* Sección Menú */
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: -74.5px;
+	height: 15%;
+}
+
+nav > div {
+	padding: 5px;
+	border: 3px solid black;
+	padding: 10px;
+	width: 150px;
+	background-color: white;
+	font-weight: bold;
+	margin: 20px;
+	text-align: center;
+}
+
+div#nav:hover {
+	background-color: lightblue;
+}
+
+/* Sección Contacto y Opiniones */
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 40px;
+}
+
+h1 {
+	font-family: 'Original Surfer', cursive;
+	color: brown;
+	text-decoration: underline;
+}
+
+b#form {
+	font-size: 20px;
+}
+
+form {
+	padding-left: 55px;
+}
+
+input[name="nombre"] {
+	margin-left: 40px;
+	padding: 2px;
+}
+
+input[name="apellidos"] {
+	margin-left: 25px;
+	padding: 2px;
+}
+
+input[name="edad"] {
+	margin-left: 67px;
+	text-align: center;
+	padding: 2px;
+}
+
+input[name="correo"] {
+	margin-left: 50px;
+	padding: 2px;
+}
+
+input[name="correo"] {
+	margin-left: 50px;
+	padding: 2px;
+}
+
+select[name="motivo"] {
+	margin-left: 50px;
+	padding: 2px;
+	width: 207px;
+	text-align: center;
+}
+
+textarea[name="texto"] {
+	margin-left: 125px;
+}
+
+input[name="enviar"] {
+	margin-left: 123px;
+	width: 130px;
+	padding: 3px;
+	border: 2px solid black;
+	background-color: white;
+}
+
+input[type="reset"] {
+	width: 130px;
+	padding: 3px;
+	margin-left: 8px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+input[name="enviar"]:hover {
+	box-shadow: 3px 5px;
+	font-weight: bold;
+}
+
+input[type="reset"]:hover {
+	box-shadow: 3px 5px;
+	font-weight: bold;
+}
+
+div#contorno {
+	border: 3px solid black;
+	border-radius: 20px;
+	height: 380px;
+	background-color: #D8FFC3;
+	padding: 10px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+h4 {
+	padding: 10px;
+	border: 2px solid black;
+	background-color: lightgreen;
+	border-radius: 20px;
+}
+
+form#opiniones {
+	padding-top: 270px;
+}
+
+input[name="opinion"] {
+	text-align: center;
+	padding: 2px;
+}
+
+input[name="escribir"] {
+	margin-right: 50px;
+	padding: 2px;
+	width: 80px;
+	border: 1px solid black;
+	background-color: white;
+	font-weight: bold;
+}
+
+/* Sección Información */
+
+footer {
+	height: 320px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: rgb(236, 226, 198);
+}
+
+footer > div {
+	width: 450px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Original Surfer', cursive;
+	color: brown;
+	text-decoration: underline;
+}
+
+a#club {
+	color: brown;
+}
+
+a#club:hover {
+	color: blue;
+}
+
+a#formu {
+	color: brown;
+}
+
+a#formu:hover {
+	color: blue;
+}
+
+/*************/
+
+/*VISTA MOBIL*/
+
+/*************/
+
+@media(max-width: 768px) {
+	div#contenedor {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	div#logo {
+		height: 200px;
+		width: 300px;
+		margin-left: 170px;
+		margin-top: 20px;
+	}
+	img#logo {
+		margin-top: -20px;
+		height: 200px;
+	}
+	div#sesion {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	div#sesion > div {
+		padding: 5px;
+		margin-top: -20px;
+		width: 200px;
+		background-color: lightblue;
+		border: 3px solid blue;
+		text-align: center;
+	}
+	/* Sección Menú */
+	nav {
+		margin-top: 10px;
+		padding-top: 10px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: stretch;
+		text-align: center;
+	}
+	nav > div {
+		padding: 5px;
+		margin-top: 10px;
+		font-weight: bold;
+		text-align: center;
+	}
+	/* Sección Contacto y Opiniones */
+	main {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding: 10px;
+		padding-bottom: 40px;
+	}
+	form {
+		text-align: center;
+		padding: 0px;
+	}
+	input[name="nombre"] {
+		margin-left: 0px;
+		width: 267px;
+	}
+	input[name="apellidos"] {
+		margin-left: 0px;
+	}
+	input[name="edad"] {
+		margin-left: 0px;
+		width: 267px;
+	}
+	input[name="correo"] {
+		margin: 0px;
+		width: 267px;
+	}
+	select[name="motivo"] {
+		margin-left: 0px;
+		width: 267px;
+	}
+	textarea[name="texto"] {
+		margin-left: 0px;
+		width: 300px;
+	}
+	input[name="enviar"] {
+		margin-left: 0px;
+	}
+	h1 {
+		margin-top: 20px;
+	}
+	input[name="opinion"] {
+		width: 200px;
+	}
+	input[name="escribir"] {
+		margin-right: 0px;
+		width: 60px;
+	}
+	form#opiniones {
+		padding-top: 260px;
+	}
+	/* Sección Información */
+	footer {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px;
+	}
+	footer > div {
+		width: 280px;
+		padding-bottom: 20px;
+	}
+}
